@@ -1,0 +1,403 @@
+.buttons {
+    float: left;
+    padding-bottom: 20px;
+    clear: both;
+}
+.button {
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 7px 12px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin-right: 10px;
+}
+
+.primary {
+    color: #fff;
+    font: bold 14px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 7px 16px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #1691d5;
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.button:hover {
+    color: #333;
+    border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); 
+    -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.primary:hover {
+    color: #fff;
+    border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); 
+    -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+a.button:active {
+    color: #000;
+    border-color: #444;
+}
+a.left {
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+}
+a.middle {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-left: solid 1px #f3f3f3;
+    margin: 0;
+    border-left: solid 1px rgba(255, 255, 255, 0);
+}
+a.middle:hover,
+a.right:hover { border-left: solid 1px #999 }
+a.right {
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+    border-left: solid 1px #f3f3f3;
+    border-left: solid 1px rgba(255, 255, 255, 0);
+}
+a.big {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+a.supersize {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+a.save {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png) 10px 7px no-repeat #f3f3f3;
+    padding-left: 30px;
+}
+a.add {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  10px -27px no-repeat #f3f3f3;
+    padding-left: 30px;
+}
+a.delete {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  10px -61px no-repeat #f3f3f3;
+    padding-left: 30px;
+}
+a.flag {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  10px -96px no-repeat #f3f3f3;
+    padding-left: 30px;
+}
+a.up {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  13px -133px no-repeat #f3f3f3;
+    width: 18px;
+}
+a.down {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  13px -168px no-repeat #f3f3f3;
+    width: 18px;
+}
+a.save-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png) 15px 11px no-repeat #f3f3f3;
+    font-size: 16px;
+    padding: 10px 15px 10px 35px;
+}
+a.add-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  15px -23px no-repeat #f3f3f3;
+    font-size: 16px;
+    padding: 10px 15px 10px 35px;
+}
+a.delete-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  15px -57px no-repeat #f3f3f3;
+    font-size: 16px;
+    padding: 10px 15px 10px 35px;
+}
+a.flag-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  15px -92px no-repeat #f3f3f3;
+    font-size: 16px;
+    padding: 10px 15px 10px 35px;
+}
+a.up-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  15px -128px no-repeat #f3f3f3;
+    width: 18px;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+a.down-big {
+    background: url(http://cssdeck.com/uploads/media/items/5/5Fm069k.png)  15px -163px no-repeat #f3f3f3;
+    width: 18px;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+
+
+
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+/* style 1 */
+
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #18a4f0;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #1691d5;
+}
+
+
+/* style 2 */
+
+.inputfile-2 + label {
+    color: #d3394c;
+    border: 2px solid currentColor;
+}
+
+.inputfile-2:focus + label,
+.inputfile-2.has-focus + label,
+.inputfile-2 + label:hover {
+    color: #722040;
+}
+
+
+/* style 3 */
+
+.inputfile-3 + label {
+    color: #d3394c;
+}
+
+.inputfile-3:focus + label,
+.inputfile-3.has-focus + label,
+.inputfile-3 + label:hover {
+    color: #722040;
+}
+
+
+/* style 4 */
+
+.inputfile-4 + label {
+    color: #d3394c;
+}
+
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover {
+    color: #722040;
+}
+
+.inputfile-4 + label figure {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #d3394c;
+    display: block;
+    padding: 20px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-4:focus + label figure,
+.inputfile-4.has-focus + label figure,
+.inputfile-4 + label:hover figure {
+    background-color: #722040;
+}
+
+.inputfile-4 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+
+
+/* style 5 */
+
+.inputfile-5 + label {
+    color: #d3394c;
+}
+
+.inputfile-5:focus + label,
+.inputfile-5.has-focus + label,
+.inputfile-5 + label:hover {
+    color: #722040;
+}
+
+.inputfile-5 + label figure {
+    width: 100px;
+    height: 135px;
+    background-color: #d3394c;
+    display: block;
+    position: relative;
+    padding: 30px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-5:focus + label figure,
+.inputfile-5.has-focus + label figure,
+.inputfile-5 + label:hover figure {
+    background-color: #722040;
+}
+
+.inputfile-5 + label figure::before,
+.inputfile-5 + label figure::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.inputfile-5 + label figure::before {
+    border-top: 20px solid #dfc8ca;
+    border-left: 20px solid transparent;
+}
+
+.inputfile-5 + label figure::after {
+    border-bottom: 20px solid #722040;
+    border-right: 20px solid transparent;
+}
+
+.inputfile-5:focus + label figure::after,
+.inputfile-5.has-focus + label figure::after,
+.inputfile-5 + label:hover figure::after {
+    border-bottom-color: #d3394c;
+}
+
+.inputfile-5 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+
+
+/* style 6 */
+
+.inputfile-6 + label {
+    color: #d3394c;
+}
+
+.inputfile-6 + label {
+    border: 1px solid #d3394c;
+    background-color: #f1e5e6;
+    padding: 0;
+}
+
+.inputfile-6:focus + label,
+.inputfile-6.has-focus + label,
+.inputfile-6 + label:hover {
+    border-color: #722040;
+}
+
+.inputfile-6 + label span,
+.inputfile-6 + label strong {
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.inputfile-6 + label span {
+    width: 200px;
+    min-height: 2em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.inputfile-6 + label strong {
+    height: 100%;
+    color: #f1e5e6;
+    background-color: #d3394c;
+    display: inline-block;
+}
+
+.inputfile-6:focus + label strong,
+.inputfile-6.has-focus + label strong,
+.inputfile-6 + label:hover strong {
+    background-color: #722040;
+}
+
+@media screen and (max-width: 50em) {
+	.inputfile-6 + label strong {
+		display: block;
+	}
+}

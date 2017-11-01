@@ -1,0 +1,13 @@
+{
+    "name": "jland/importcontacts",
+    "authors": [
+        {
+            "name": "Pavel Tiguntsev",
+            "email": "pavel@jland.info"
+        }
+    ],
+    "require": {
+        "rapidwebltd/php-google-contacts-v3-api": "^2.0",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

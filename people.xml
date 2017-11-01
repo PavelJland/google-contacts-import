@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005">
+  <title>testname</title>
+  <gd:email rel="http://schemas.google.com/g/2005#work" address="asdasdasd@wa.com"/>
+  <gd:phoneNumber rel="http://schemas.google.com/g/2005#work">2234234</gd:phoneNumber>
+  <atom:content rel="http://schemas.google.com/g/2005#kind"/>
+</atom:entry>
