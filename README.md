@@ -5,6 +5,5 @@ http://contacts.jland.club
 
 Inspired by Max Osovskiy
 
-You can also find Exporter
 
-https://bitbucket.org/vicimpa/whatsapp-exporter
+You can also find Exporter here https://bitbucket.org/pabloTTTT/whatsapp-exporter-images
